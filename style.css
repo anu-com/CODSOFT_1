@@ -1,0 +1,106 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-content img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 40px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#skills {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Add responsiveness */
+@media only screen and (max-width: 768px) {
+    #skills {
+        width: 90%;
+    }
+}
